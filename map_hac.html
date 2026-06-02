@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fa7ab41d1bc5e9cb97217d19eb259949 {
+                #map_2c0f761f59898c1e09f378e8695e990d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -53,16 +53,16 @@
 </head>
 <body>
     
-    <div style="position:fixed;bottom:30px;left:30px;z-index:1000;background:white;padding:10px;border-radius:5px;border:1px solid #ccc;font-size:12px;"><b>Clusters CAH (Ward)</b><br><i style="background:#e41a1c;width:12px;height:12px;display:inline-block;border-radius:50%;margin-right:5px;"></i>Cluster 0 (184 pays)<br><i style="background:#377eb8;width:12px;height:12px;display:inline-block;border-radius:50%;margin-right:5px;"></i>Cluster 1 (2 pays)<br><i style="background:#4daf4a;width:12px;height:12px;display:inline-block;border-radius:50%;margin-right:5px;"></i>Cluster 2 (2 pays)<br><i style="background:#ff7f00;width:12px;height:12px;display:inline-block;border-radius:50%;margin-right:5px;"></i>Cluster 3 (2 pays)<br></div>
+    <div style="position:fixed;bottom:30px;left:30px;z-index:1000;background:white;padding:10px;border-radius:5px;border:1px solid #ccc;font-size:12px;"><b>Clusters CAH (Ward)</b><br><i style="background:#e41a1c;width:12px;height:12px;display:inline-block;border-radius:50%;margin-right:5px;"></i>Cluster 0 (72 pays)<br><i style="background:#377eb8;width:12px;height:12px;display:inline-block;border-radius:50%;margin-right:5px;"></i>Cluster 1 (59 pays)<br><i style="background:#4daf4a;width:12px;height:12px;display:inline-block;border-radius:50%;margin-right:5px;"></i>Cluster 2 (53 pays)<br><i style="background:#ff7f00;width:12px;height:12px;display:inline-block;border-radius:50%;margin-right:5px;"></i>Cluster 3 (2 pays)<br><i style="background:#984ea3;width:12px;height:12px;display:inline-block;border-radius:50%;margin-right:5px;"></i>Cluster 4 (2 pays)<br><i style="background:#a65628;width:12px;height:12px;display:inline-block;border-radius:50%;margin-right:5px;"></i>Cluster 5 (2 pays)<br></div>
     
-            <div class="folium-map" id="map_fa7ab41d1bc5e9cb97217d19eb259949" ></div>
+            <div class="folium-map" id="map_2c0f761f59898c1e09f378e8695e990d" ></div>
         
 </body>
 <script>
     
     
-            var map_fa7ab41d1bc5e9cb97217d19eb259949 = L.map(
-                "map_fa7ab41d1bc5e9cb97217d19eb259949",
+            var map_2c0f761f59898c1e09f378e8695e990d = L.map(
+                "map_2c0f761f59898c1e09f378e8695e990d",
                 {
                     center: [20.0, 0.0],
                     crs: L.CRS.EPSG3857,
@@ -79,7 +79,7 @@
 
         
     
-            var tile_layer_55ba78fb55d8f5d0a66c509f1cdec044 = L.tileLayer(
+            var tile_layer_abf4237e0ba6764e55bc2989b1913d86 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -96,18 +96,18 @@
             );
         
     
-            tile_layer_55ba78fb55d8f5d0a66c509f1cdec044.addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            tile_layer_abf4237e0ba6764e55bc2989b1913d86.addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            var circle_marker_cbd7bc16476320d1394f130d0cf462bb = L.circleMarker(
+            var circle_marker_9bc2e0ac91a8149e14fb794475c1efd6 = L.circleMarker(
                 [41.15, 20.17],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_cbd7bc16476320d1394f130d0cf462bb.bindTooltip(
+            circle_marker_9bc2e0ac91a8149e14fb794475c1efd6.bindTooltip(
                 `<div>
-                     Albania — Cluster 0
+                     Albania — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -115,15 +115,15 @@
             );
         
     
-            var circle_marker_bae24421b46f398f07bb4dd9e296cbee = L.circleMarker(
+            var circle_marker_05ded49eca2bb7cdf4f3ab0eec34b0ae = L.circleMarker(
                 [40.07, 45.04],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_bae24421b46f398f07bb4dd9e296cbee.bindTooltip(
+            circle_marker_05ded49eca2bb7cdf4f3ab0eec34b0ae.bindTooltip(
                 `<div>
-                     Armenia — Cluster 0
+                     Armenia — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -131,15 +131,15 @@
             );
         
     
-            var circle_marker_051643357a02bdcdd84a6ad6eb88384f = L.circleMarker(
+            var circle_marker_33f22f082f36516f037348d9c7e7ff2b = L.circleMarker(
                 [47.52, 14.55],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_051643357a02bdcdd84a6ad6eb88384f.bindTooltip(
+            circle_marker_33f22f082f36516f037348d9c7e7ff2b.bindTooltip(
                 `<div>
-                     Austria — Cluster 0
+                     Austria — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -147,15 +147,15 @@
             );
         
     
-            var circle_marker_0db0556366d4ff0065422ed3018efee2 = L.circleMarker(
+            var circle_marker_fbad04f12ae48cfb0a3c854e76e0b7d0 = L.circleMarker(
                 [40.14, 47.58],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_0db0556366d4ff0065422ed3018efee2.bindTooltip(
+            circle_marker_fbad04f12ae48cfb0a3c854e76e0b7d0.bindTooltip(
                 `<div>
-                     Azerbaijan — Cluster 0
+                     Azerbaijan — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -163,15 +163,15 @@
             );
         
     
-            var circle_marker_ba2bddc1eca1d0caf2206fbc35657167 = L.circleMarker(
+            var circle_marker_ad0e9d50a4d729e3577b43f0c44ca9ee = L.circleMarker(
                 [53.71, 28.05],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_ba2bddc1eca1d0caf2206fbc35657167.bindTooltip(
+            circle_marker_ad0e9d50a4d729e3577b43f0c44ca9ee.bindTooltip(
                 `<div>
-                     Belarus — Cluster 0
+                     Belarus — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -179,15 +179,15 @@
             );
         
     
-            var circle_marker_2e75242f524e86d28972763121bad633 = L.circleMarker(
+            var circle_marker_63c470748bec8882296d4f552bc8a755 = L.circleMarker(
                 [50.5, 4.47],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_2e75242f524e86d28972763121bad633.bindTooltip(
+            circle_marker_63c470748bec8882296d4f552bc8a755.bindTooltip(
                 `<div>
-                     Belgium — Cluster 0
+                     Belgium — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -195,15 +195,15 @@
             );
         
     
-            var circle_marker_8f12cbd0390ef8842112090f58a33b6a = L.circleMarker(
+            var circle_marker_ce40920f7d836eb5aff397bcf4ff9aa2 = L.circleMarker(
                 [43.92, 17.68],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_8f12cbd0390ef8842112090f58a33b6a.bindTooltip(
+            circle_marker_ce40920f7d836eb5aff397bcf4ff9aa2.bindTooltip(
                 `<div>
-                     Bosnia and Herzegovina — Cluster 0
+                     Bosnia and Herzegovina — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -211,15 +211,15 @@
             );
         
     
-            var circle_marker_6d34f8e6ad4c39c2ba7c23f82f74cd34 = L.circleMarker(
+            var circle_marker_1a4c1f7cdd1766f34ca0ce507e6e9945 = L.circleMarker(
                 [42.73, 25.49],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_6d34f8e6ad4c39c2ba7c23f82f74cd34.bindTooltip(
+            circle_marker_1a4c1f7cdd1766f34ca0ce507e6e9945.bindTooltip(
                 `<div>
-                     Bulgaria — Cluster 0
+                     Bulgaria — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -227,13 +227,13 @@
             );
         
     
-            var circle_marker_392ba8575eb04f71c0ce080b27ccedc5 = L.circleMarker(
+            var circle_marker_54ef1d4c70e76de3c3334c54fe17170c = L.circleMarker(
                 [45.1, 15.2],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_392ba8575eb04f71c0ce080b27ccedc5.bindTooltip(
+            circle_marker_54ef1d4c70e76de3c3334c54fe17170c.bindTooltip(
                 `<div>
                      Croatia — Cluster 0
                  </div>`,
@@ -243,13 +243,13 @@
             );
         
     
-            var circle_marker_f5b0322b95cd1301277f60acea774aa2 = L.circleMarker(
+            var circle_marker_cc766f91907bc3a4eabbd61b045713e3 = L.circleMarker(
                 [35.13, 33.43],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f00", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_f5b0322b95cd1301277f60acea774aa2.bindTooltip(
+            circle_marker_cc766f91907bc3a4eabbd61b045713e3.bindTooltip(
                 `<div>
                      Cyprus — Cluster 3
                  </div>`,
@@ -259,15 +259,15 @@
             );
         
     
-            var circle_marker_121a15e5d35f7145604e45722a124fce = L.circleMarker(
+            var circle_marker_20a1f0fb49af9fa3df14e694ae71d49d = L.circleMarker(
                 [49.82, 15.47],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_121a15e5d35f7145604e45722a124fce.bindTooltip(
+            circle_marker_20a1f0fb49af9fa3df14e694ae71d49d.bindTooltip(
                 `<div>
-                     Czechia — Cluster 0
+                     Czechia — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -275,13 +275,13 @@
             );
         
     
-            var circle_marker_16b066333461b62ebac5861c2cffef2d = L.circleMarker(
+            var circle_marker_5dba3265f65b2ce31504aa6fc509f45f = L.circleMarker(
                 [56.26, 9.5],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_16b066333461b62ebac5861c2cffef2d.bindTooltip(
+            circle_marker_5dba3265f65b2ce31504aa6fc509f45f.bindTooltip(
                 `<div>
                      Denmark — Cluster 0
                  </div>`,
@@ -291,15 +291,15 @@
             );
         
     
-            var circle_marker_726bcc41df7affabee36fc6a60109714 = L.circleMarker(
+            var circle_marker_3486edaaa65ee546ead95b43ff008bf9 = L.circleMarker(
                 [58.6, 25.01],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_726bcc41df7affabee36fc6a60109714.bindTooltip(
+            circle_marker_3486edaaa65ee546ead95b43ff008bf9.bindTooltip(
                 `<div>
-                     Estonia — Cluster 0
+                     Estonia — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -307,15 +307,15 @@
             );
         
     
-            var circle_marker_fa4283babc0e2ea947d637273d752b29 = L.circleMarker(
+            var circle_marker_b8c2a667ab834179deaebdb4ce56390a = L.circleMarker(
                 [61.92, 25.75],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_fa4283babc0e2ea947d637273d752b29.bindTooltip(
+            circle_marker_b8c2a667ab834179deaebdb4ce56390a.bindTooltip(
                 `<div>
-                     Finland — Cluster 0
+                     Finland — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -323,15 +323,15 @@
             );
         
     
-            var circle_marker_93fbb15cc9fc69e9701fdce9ac96db9d = L.circleMarker(
+            var circle_marker_6e7f448589ec41f8b7f92c27bcf80ad3 = L.circleMarker(
                 [46.23, 2.21],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_93fbb15cc9fc69e9701fdce9ac96db9d.bindTooltip(
+            circle_marker_6e7f448589ec41f8b7f92c27bcf80ad3.bindTooltip(
                 `<div>
-                     France — Cluster 0
+                     France — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -339,13 +339,13 @@
             );
         
     
-            var circle_marker_cad4f323a1d5d11d5e034d8db27c0e4f = L.circleMarker(
+            var circle_marker_59d39c45151d233e3a3af199dbbbb9e8 = L.circleMarker(
                 [42.32, 43.36],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_cad4f323a1d5d11d5e034d8db27c0e4f.bindTooltip(
+            circle_marker_59d39c45151d233e3a3af199dbbbb9e8.bindTooltip(
                 `<div>
                      Georgia — Cluster 0
                  </div>`,
@@ -355,13 +355,13 @@
             );
         
     
-            var circle_marker_8ac83e7b92789bdd42eac29bae005e04 = L.circleMarker(
+            var circle_marker_cfa4c44fb26e5060ceaeb6b8934cec69 = L.circleMarker(
                 [51.17, 10.45],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_8ac83e7b92789bdd42eac29bae005e04.bindTooltip(
+            circle_marker_cfa4c44fb26e5060ceaeb6b8934cec69.bindTooltip(
                 `<div>
                      Germany — Cluster 0
                  </div>`,
@@ -371,13 +371,13 @@
             );
         
     
-            var circle_marker_45523c751f599185e2c68cac23c4338b = L.circleMarker(
+            var circle_marker_0687755f6b31f916165ccd844b2df75e = L.circleMarker(
                 [39.07, 21.82],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f00", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_45523c751f599185e2c68cac23c4338b.bindTooltip(
+            circle_marker_0687755f6b31f916165ccd844b2df75e.bindTooltip(
                 `<div>
                      Greece — Cluster 3
                  </div>`,
@@ -387,15 +387,15 @@
             );
         
     
-            var circle_marker_adce8661ac2406ef63f707ab11b2f57f = L.circleMarker(
+            var circle_marker_c70b9aa6676d8dc2bc2d5156fcdfcb25 = L.circleMarker(
                 [47.16, 19.5],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_adce8661ac2406ef63f707ab11b2f57f.bindTooltip(
+            circle_marker_c70b9aa6676d8dc2bc2d5156fcdfcb25.bindTooltip(
                 `<div>
-                     Hungary — Cluster 0
+                     Hungary — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -403,15 +403,15 @@
             );
         
     
-            var circle_marker_ee0d4201b8a8b3e5b4cc8c46040a40bb = L.circleMarker(
+            var circle_marker_9066317ef81b9cf59338dbaa28ed4768 = L.circleMarker(
                 [64.96, -19.02],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_ee0d4201b8a8b3e5b4cc8c46040a40bb.bindTooltip(
+            circle_marker_9066317ef81b9cf59338dbaa28ed4768.bindTooltip(
                 `<div>
-                     Iceland — Cluster 0
+                     Iceland — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -419,15 +419,15 @@
             );
         
     
-            var circle_marker_a8c66af51c406ec2d8cced30bac36b54 = L.circleMarker(
+            var circle_marker_3c873ee3f3e501191f5b6a5c8abaec17 = L.circleMarker(
                 [53.41, -8.24],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_a8c66af51c406ec2d8cced30bac36b54.bindTooltip(
+            circle_marker_3c873ee3f3e501191f5b6a5c8abaec17.bindTooltip(
                 `<div>
-                     Ireland — Cluster 0
+                     Ireland — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -435,15 +435,15 @@
             );
         
     
-            var circle_marker_36664e8be9814ce1fba9784b0b6b0a94 = L.circleMarker(
+            var circle_marker_bde2ea562de63ac123868bd808c21e9a = L.circleMarker(
                 [41.87, 12.57],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_36664e8be9814ce1fba9784b0b6b0a94.bindTooltip(
+            circle_marker_bde2ea562de63ac123868bd808c21e9a.bindTooltip(
                 `<div>
-                     Italy — Cluster 0
+                     Italy — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -451,13 +451,13 @@
             );
         
     
-            var circle_marker_f0751c151f84564e4781bf32cce982e8 = L.circleMarker(
+            var circle_marker_0eeb0bf1384356a38ac4d0eba8b9472a = L.circleMarker(
                 [56.88, 24.6],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_f0751c151f84564e4781bf32cce982e8.bindTooltip(
+            circle_marker_0eeb0bf1384356a38ac4d0eba8b9472a.bindTooltip(
                 `<div>
                      Latvia — Cluster 0
                  </div>`,
@@ -467,13 +467,13 @@
             );
         
     
-            var circle_marker_b76c8e231885a1edad7e1860d49748de = L.circleMarker(
+            var circle_marker_65f2dfb0c758e1afd650b251bd000a27 = L.circleMarker(
                 [47.14, 9.56],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_b76c8e231885a1edad7e1860d49748de.bindTooltip(
+            circle_marker_65f2dfb0c758e1afd650b251bd000a27.bindTooltip(
                 `<div>
                      Liechtenstein — Cluster 0
                  </div>`,
@@ -483,13 +483,13 @@
             );
         
     
-            var circle_marker_c14ad1f706279f8a530e9626dfe85893 = L.circleMarker(
+            var circle_marker_09995cbbed1f42c3326a07f8fc8455cf = L.circleMarker(
                 [55.17, 23.88],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_c14ad1f706279f8a530e9626dfe85893.bindTooltip(
+            circle_marker_09995cbbed1f42c3326a07f8fc8455cf.bindTooltip(
                 `<div>
                      Lithuania — Cluster 0
                  </div>`,
@@ -499,15 +499,15 @@
             );
         
     
-            var circle_marker_cea93a5fcdb2bc839d80528ea9882fce = L.circleMarker(
+            var circle_marker_d0531a226c2501790e7eff48e98750a5 = L.circleMarker(
                 [49.82, 6.13],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_cea93a5fcdb2bc839d80528ea9882fce.bindTooltip(
+            circle_marker_d0531a226c2501790e7eff48e98750a5.bindTooltip(
                 `<div>
-                     Luxembourg — Cluster 0
+                     Luxembourg — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -515,13 +515,13 @@
             );
         
     
-            var circle_marker_1a61faf8b2dc668da00237c0adfeaf5a = L.circleMarker(
+            var circle_marker_19151c3b7b3c1823a84e77b5b2af3d61 = L.circleMarker(
                 [35.94, 14.38],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_1a61faf8b2dc668da00237c0adfeaf5a.bindTooltip(
+            circle_marker_19151c3b7b3c1823a84e77b5b2af3d61.bindTooltip(
                 `<div>
                      Malta — Cluster 0
                  </div>`,
@@ -531,15 +531,15 @@
             );
         
     
-            var circle_marker_88b8bd2a64faa2be7b1b3bcb5ac3b7e0 = L.circleMarker(
+            var circle_marker_cb42a229ad1cb4d2744ad9da696706a7 = L.circleMarker(
                 [42.71, 19.37],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_88b8bd2a64faa2be7b1b3bcb5ac3b7e0.bindTooltip(
+            circle_marker_cb42a229ad1cb4d2744ad9da696706a7.bindTooltip(
                 `<div>
-                     Montenegro — Cluster 0
+                     Montenegro — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -547,15 +547,15 @@
             );
         
     
-            var circle_marker_093fc6dd2a07ab8ef6872a7a94a01af7 = L.circleMarker(
+            var circle_marker_9239a1aab8a8110822032f8f26240b5f = L.circleMarker(
                 [60.47, 8.47],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_093fc6dd2a07ab8ef6872a7a94a01af7.bindTooltip(
+            circle_marker_9239a1aab8a8110822032f8f26240b5f.bindTooltip(
                 `<div>
-                     Norway — Cluster 0
+                     Norway — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -563,13 +563,13 @@
             );
         
     
-            var circle_marker_d4339bacd7f4e13f3211ff924cfd7bac = L.circleMarker(
+            var circle_marker_04f4ea5bc13e35a46bfaffe7314a4413 = L.circleMarker(
                 [51.92, 19.15],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_d4339bacd7f4e13f3211ff924cfd7bac.bindTooltip(
+            circle_marker_04f4ea5bc13e35a46bfaffe7314a4413.bindTooltip(
                 `<div>
                      Poland — Cluster 0
                  </div>`,
@@ -579,15 +579,15 @@
             );
         
     
-            var circle_marker_4c1b90368f5b03f7cd7b328b1c900de1 = L.circleMarker(
+            var circle_marker_1f7d85d7d2124790cbcab8a3605bc512 = L.circleMarker(
                 [39.4, -8.22],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_4c1b90368f5b03f7cd7b328b1c900de1.bindTooltip(
+            circle_marker_1f7d85d7d2124790cbcab8a3605bc512.bindTooltip(
                 `<div>
-                     Portugal — Cluster 0
+                     Portugal — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -595,15 +595,15 @@
             );
         
     
-            var circle_marker_fb6a435717f076110f70e43383a00ccf = L.circleMarker(
+            var circle_marker_08eb59f6760c3569c53f7242aff8d4f9 = L.circleMarker(
                 [45.94, 24.97],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_fb6a435717f076110f70e43383a00ccf.bindTooltip(
+            circle_marker_08eb59f6760c3569c53f7242aff8d4f9.bindTooltip(
                 `<div>
-                     Romania — Cluster 0
+                     Romania — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -611,15 +611,15 @@
             );
         
     
-            var circle_marker_23a9c262a35b151abf4912eb6b047677 = L.circleMarker(
+            var circle_marker_c2273eec43472d8f28c6282067d0effa = L.circleMarker(
                 [44.02, 21.01],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_23a9c262a35b151abf4912eb6b047677.bindTooltip(
+            circle_marker_c2273eec43472d8f28c6282067d0effa.bindTooltip(
                 `<div>
-                     Serbia — Cluster 0
+                     Serbia — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -627,15 +627,15 @@
             );
         
     
-            var circle_marker_44d761e4d97c27a0b00a45d244b2cde0 = L.circleMarker(
+            var circle_marker_fe0548fc77fc6e10d6cbbd442db10fc7 = L.circleMarker(
                 [48.67, 19.7],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_44d761e4d97c27a0b00a45d244b2cde0.bindTooltip(
+            circle_marker_fe0548fc77fc6e10d6cbbd442db10fc7.bindTooltip(
                 `<div>
-                     Slovakia — Cluster 0
+                     Slovakia — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -643,13 +643,13 @@
             );
         
     
-            var circle_marker_f82387c013ce81aacdadb6045bd8afa5 = L.circleMarker(
+            var circle_marker_0ad3b2ef373eabea203c56d25ba4f2ee = L.circleMarker(
                 [46.15, 14.99],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_f82387c013ce81aacdadb6045bd8afa5.bindTooltip(
+            circle_marker_0ad3b2ef373eabea203c56d25ba4f2ee.bindTooltip(
                 `<div>
                      Slovenia — Cluster 0
                  </div>`,
@@ -659,15 +659,15 @@
             );
         
     
-            var circle_marker_351c9cb6968cc2076fe6a01ad8b43330 = L.circleMarker(
+            var circle_marker_66ace714816ee35811cfcbbe778c41e8 = L.circleMarker(
                 [40.46, -3.75],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_351c9cb6968cc2076fe6a01ad8b43330.bindTooltip(
+            circle_marker_66ace714816ee35811cfcbbe778c41e8.bindTooltip(
                 `<div>
-                     Spain — Cluster 0
+                     Spain — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -675,15 +675,15 @@
             );
         
     
-            var circle_marker_9cdcb41594622bf705a6f923218cde08 = L.circleMarker(
+            var circle_marker_4f68055781927d68633d7dd31c806d18 = L.circleMarker(
                 [60.13, 18.64],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_9cdcb41594622bf705a6f923218cde08.bindTooltip(
+            circle_marker_4f68055781927d68633d7dd31c806d18.bindTooltip(
                 `<div>
-                     Sweden — Cluster 0
+                     Sweden — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -691,15 +691,15 @@
             );
         
     
-            var circle_marker_adbcb46d781d5dca58bae0360320f583 = L.circleMarker(
+            var circle_marker_7f67dcbf60fc220015067ef304269239 = L.circleMarker(
                 [46.82, 8.23],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_adbcb46d781d5dca58bae0360320f583.bindTooltip(
+            circle_marker_7f67dcbf60fc220015067ef304269239.bindTooltip(
                 `<div>
-                     Switzerland — Cluster 0
+                     Switzerland — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -707,15 +707,15 @@
             );
         
     
-            var circle_marker_ff77c5aec90e9aa88eaa11ee46ef0273 = L.circleMarker(
+            var circle_marker_d7ecff3e37e8a2c4c5ccac3300882635 = L.circleMarker(
                 [48.38, 31.17],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_ff77c5aec90e9aa88eaa11ee46ef0273.bindTooltip(
+            circle_marker_d7ecff3e37e8a2c4c5ccac3300882635.bindTooltip(
                 `<div>
-                     Ukraine — Cluster 0
+                     Ukraine — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -723,15 +723,15 @@
             );
         
     
-            var circle_marker_1c7a78c43b5cb486af5272f8d0d5e1f0 = L.circleMarker(
+            var circle_marker_1006dae96cac62fc9fe049cdc429ff2f = L.circleMarker(
                 [-38.42, -63.62],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_1c7a78c43b5cb486af5272f8d0d5e1f0.bindTooltip(
+            circle_marker_1006dae96cac62fc9fe049cdc429ff2f.bindTooltip(
                 `<div>
-                     Argentina — Cluster 0
+                     Argentina — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -739,15 +739,15 @@
             );
         
     
-            var circle_marker_ac737b572237dd848ea9b6c7c5e723d9 = L.circleMarker(
+            var circle_marker_478272df791bcbb55855eca3e8865b46 = L.circleMarker(
                 [-16.29, -63.59],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_ac737b572237dd848ea9b6c7c5e723d9.bindTooltip(
+            circle_marker_478272df791bcbb55855eca3e8865b46.bindTooltip(
                 `<div>
-                     Bolivia — Cluster 0
+                     Bolivia — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -755,15 +755,15 @@
             );
         
     
-            var circle_marker_72d67ba2a1b73b2ec90e82646a9987e2 = L.circleMarker(
+            var circle_marker_59156d2a74faf836577be8cb450d1fb9 = L.circleMarker(
                 [-14.24, -51.93],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_72d67ba2a1b73b2ec90e82646a9987e2.bindTooltip(
+            circle_marker_59156d2a74faf836577be8cb450d1fb9.bindTooltip(
                 `<div>
-                     Brazil — Cluster 0
+                     Brazil — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -771,15 +771,15 @@
             );
         
     
-            var circle_marker_172a33d93271e5531b2a9608f035f545 = L.circleMarker(
+            var circle_marker_e475de2af3804776bfcba125be457cef = L.circleMarker(
                 [-35.68, -71.54],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_172a33d93271e5531b2a9608f035f545.bindTooltip(
+            circle_marker_e475de2af3804776bfcba125be457cef.bindTooltip(
                 `<div>
-                     Chile — Cluster 0
+                     Chile — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -787,15 +787,15 @@
             );
         
     
-            var circle_marker_e63a6c7fa9f9439179eb7394307970c6 = L.circleMarker(
+            var circle_marker_7e3c756d6f1b8c28264c7f7ece7eb281 = L.circleMarker(
                 [4.57, -74.3],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_e63a6c7fa9f9439179eb7394307970c6.bindTooltip(
+            circle_marker_7e3c756d6f1b8c28264c7f7ece7eb281.bindTooltip(
                 `<div>
-                     Colombia — Cluster 0
+                     Colombia — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -803,15 +803,15 @@
             );
         
     
-            var circle_marker_c122a00aba594caf0bf72e93eb4dc56a = L.circleMarker(
+            var circle_marker_2273e9ffac008e9c2bfef4ed0fc6b6d3 = L.circleMarker(
                 [-1.83, -78.18],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_c122a00aba594caf0bf72e93eb4dc56a.bindTooltip(
+            circle_marker_2273e9ffac008e9c2bfef4ed0fc6b6d3.bindTooltip(
                 `<div>
-                     Ecuador — Cluster 0
+                     Ecuador — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -819,15 +819,15 @@
             );
         
     
-            var circle_marker_aa0c833de81c41335dc2d47022d11e02 = L.circleMarker(
+            var circle_marker_4b9e52cdb0af08eb2f3d04cc2e286ebe = L.circleMarker(
                 [4.86, -58.93],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_aa0c833de81c41335dc2d47022d11e02.bindTooltip(
+            circle_marker_4b9e52cdb0af08eb2f3d04cc2e286ebe.bindTooltip(
                 `<div>
-                     Guyana — Cluster 0
+                     Guyana — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -835,15 +835,15 @@
             );
         
     
-            var circle_marker_8bec6bfcb89fa04fdd19c750b61ea37d = L.circleMarker(
+            var circle_marker_de391478d3d5bd2661662e3cd28c31ab = L.circleMarker(
                 [-23.44, -58.44],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_8bec6bfcb89fa04fdd19c750b61ea37d.bindTooltip(
+            circle_marker_de391478d3d5bd2661662e3cd28c31ab.bindTooltip(
                 `<div>
-                     Paraguay — Cluster 0
+                     Paraguay — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -851,15 +851,15 @@
             );
         
     
-            var circle_marker_467769780da79a8dae860eb21e558f03 = L.circleMarker(
+            var circle_marker_116990d0cd8f48b9f38e1caa977d1333 = L.circleMarker(
                 [-9.19, -75.02],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_467769780da79a8dae860eb21e558f03.bindTooltip(
+            circle_marker_116990d0cd8f48b9f38e1caa977d1333.bindTooltip(
                 `<div>
-                     Peru — Cluster 0
+                     Peru — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -867,13 +867,13 @@
             );
         
     
-            var circle_marker_324a3ec790cf3b9e59f6731996bf34a9 = L.circleMarker(
+            var circle_marker_19e55637ca2dec4a11de0efab804d592 = L.circleMarker(
                 [3.92, -56.03],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_324a3ec790cf3b9e59f6731996bf34a9.bindTooltip(
+            circle_marker_19e55637ca2dec4a11de0efab804d592.bindTooltip(
                 `<div>
                      Suriname — Cluster 0
                  </div>`,
@@ -883,15 +883,15 @@
             );
         
     
-            var circle_marker_65f955b2ac50b4ca29d9397735c92ba3 = L.circleMarker(
+            var circle_marker_b5a0e638724a702ea08120a4a4ed6505 = L.circleMarker(
                 [-32.52, -55.77],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_65f955b2ac50b4ca29d9397735c92ba3.bindTooltip(
+            circle_marker_b5a0e638724a702ea08120a4a4ed6505.bindTooltip(
                 `<div>
-                     Uruguay — Cluster 0
+                     Uruguay — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -899,15 +899,15 @@
             );
         
     
-            var circle_marker_412f126a4f82905ce8614e7431e1a8c7 = L.circleMarker(
+            var circle_marker_d45721decee0172f0f23a8035ed060d9 = L.circleMarker(
                 [6.42, -66.59],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_412f126a4f82905ce8614e7431e1a8c7.bindTooltip(
+            circle_marker_d45721decee0172f0f23a8035ed060d9.bindTooltip(
                 `<div>
-                     Venezuela — Cluster 0
+                     Venezuela — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -915,13 +915,13 @@
             );
         
     
-            var circle_marker_2a0d101c40911da12c82135b548d4ac9 = L.circleMarker(
+            var circle_marker_79b6b3e9da1528bda94efaf328b12bf9 = L.circleMarker(
                 [56.13, -106.35],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_2a0d101c40911da12c82135b548d4ac9.bindTooltip(
+            circle_marker_79b6b3e9da1528bda94efaf328b12bf9.bindTooltip(
                 `<div>
                      Canada — Cluster 0
                  </div>`,
@@ -931,15 +931,15 @@
             );
         
     
-            var circle_marker_187b9d0cff05b579d7f692713511fac4 = L.circleMarker(
+            var circle_marker_bc62b2a573fc6e482521354e8c1320fe = L.circleMarker(
                 [23.63, -102.55],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_187b9d0cff05b579d7f692713511fac4.bindTooltip(
+            circle_marker_bc62b2a573fc6e482521354e8c1320fe.bindTooltip(
                 `<div>
-                     Mexico — Cluster 0
+                     Mexico — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -947,15 +947,15 @@
             );
         
     
-            var circle_marker_eba5ca7f59e84cf8d2648c00ef716725 = L.circleMarker(
+            var circle_marker_0a4dc68cc8ce927d0ac36b1f9dca7f09 = L.circleMarker(
                 [15.78, -90.23],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_eba5ca7f59e84cf8d2648c00ef716725.bindTooltip(
+            circle_marker_0a4dc68cc8ce927d0ac36b1f9dca7f09.bindTooltip(
                 `<div>
-                     Guatemala — Cluster 0
+                     Guatemala — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -963,15 +963,15 @@
             );
         
     
-            var circle_marker_556e51b3f4464565f2646e3fc6c6db18 = L.circleMarker(
+            var circle_marker_342631b9dab9701270d1921ced3ed96a = L.circleMarker(
                 [21.52, -77.78],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_556e51b3f4464565f2646e3fc6c6db18.bindTooltip(
+            circle_marker_342631b9dab9701270d1921ced3ed96a.bindTooltip(
                 `<div>
-                     Cuba — Cluster 0
+                     Cuba — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -979,15 +979,15 @@
             );
         
     
-            var circle_marker_4e04e258f16531da8b05c876ddab7e2a = L.circleMarker(
+            var circle_marker_97867492e2ce48556e609b680513601d = L.circleMarker(
                 [18.97, -72.29],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_4e04e258f16531da8b05c876ddab7e2a.bindTooltip(
+            circle_marker_97867492e2ce48556e609b680513601d.bindTooltip(
                 `<div>
-                     Haiti — Cluster 0
+                     Haiti — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -995,15 +995,15 @@
             );
         
     
-            var circle_marker_cd2058afe50738539bb9b868dfc1f6d8 = L.circleMarker(
+            var circle_marker_a105b81816aa04e218761103d010ca0e = L.circleMarker(
                 [18.74, -70.16],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_cd2058afe50738539bb9b868dfc1f6d8.bindTooltip(
+            circle_marker_a105b81816aa04e218761103d010ca0e.bindTooltip(
                 `<div>
-                     Dominican Republic — Cluster 0
+                     Dominican Republic — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1011,15 +1011,15 @@
             );
         
     
-            var circle_marker_4d3ef261279571ed797472e9b465e20a = L.circleMarker(
+            var circle_marker_ed6fcc7a4c5d40bb6023bd67963fd4c0 = L.circleMarker(
                 [15.2, -86.24],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_4d3ef261279571ed797472e9b465e20a.bindTooltip(
+            circle_marker_ed6fcc7a4c5d40bb6023bd67963fd4c0.bindTooltip(
                 `<div>
-                     Honduras — Cluster 0
+                     Honduras — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1027,15 +1027,15 @@
             );
         
     
-            var circle_marker_044efed6d1c22504297685e1fb25ba91 = L.circleMarker(
+            var circle_marker_4b54907eb928e90bbae34b25d796df2c = L.circleMarker(
                 [13.79, -88.9],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_044efed6d1c22504297685e1fb25ba91.bindTooltip(
+            circle_marker_4b54907eb928e90bbae34b25d796df2c.bindTooltip(
                 `<div>
-                     El Salvador — Cluster 0
+                     El Salvador — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1043,15 +1043,15 @@
             );
         
     
-            var circle_marker_f217219b5443642cfd7ba3df416c07a3 = L.circleMarker(
+            var circle_marker_f4c364a8ab9c7d70510886c9ab7b6080 = L.circleMarker(
                 [12.87, -85.21],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_f217219b5443642cfd7ba3df416c07a3.bindTooltip(
+            circle_marker_f4c364a8ab9c7d70510886c9ab7b6080.bindTooltip(
                 `<div>
-                     Nicaragua — Cluster 0
+                     Nicaragua — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1059,15 +1059,15 @@
             );
         
     
-            var circle_marker_1ea0617febd01de88ac9b7ffb7ae5a9f = L.circleMarker(
+            var circle_marker_fcd383da4de4e2ab9e512dfdadf4af66 = L.circleMarker(
                 [9.75, -83.75],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_1ea0617febd01de88ac9b7ffb7ae5a9f.bindTooltip(
+            circle_marker_fcd383da4de4e2ab9e512dfdadf4af66.bindTooltip(
                 `<div>
-                     Costa Rica — Cluster 0
+                     Costa Rica — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1075,13 +1075,13 @@
             );
         
     
-            var circle_marker_972e7699d98f22b429f1717f1a246583 = L.circleMarker(
+            var circle_marker_74c776c765491984e3e95a1356c0e55d = L.circleMarker(
                 [8.54, -80.78],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_972e7699d98f22b429f1717f1a246583.bindTooltip(
+            circle_marker_74c776c765491984e3e95a1356c0e55d.bindTooltip(
                 `<div>
                      Panama — Cluster 0
                  </div>`,
@@ -1091,13 +1091,13 @@
             );
         
     
-            var circle_marker_d24bccb4fb2aae65c005341953edfcf5 = L.circleMarker(
+            var circle_marker_b549b14c2b21dd16a091c6cf8b18b2be = L.circleMarker(
                 [18.11, -77.3],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_d24bccb4fb2aae65c005341953edfcf5.bindTooltip(
+            circle_marker_b549b14c2b21dd16a091c6cf8b18b2be.bindTooltip(
                 `<div>
                      Jamaica — Cluster 0
                  </div>`,
@@ -1107,13 +1107,13 @@
             );
         
     
-            var circle_marker_2d65fc115c4fd9b7b2c9395f71caf6eb = L.circleMarker(
+            var circle_marker_8ed2615dfac02640182e058902c77b03 = L.circleMarker(
                 [10.69, -61.22],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_2d65fc115c4fd9b7b2c9395f71caf6eb.bindTooltip(
+            circle_marker_8ed2615dfac02640182e058902c77b03.bindTooltip(
                 `<div>
                      Trinidad and Tobago — Cluster 0
                  </div>`,
@@ -1123,15 +1123,15 @@
             );
         
     
-            var circle_marker_2bfdc9cbf47c2171ba68c828b52bc15f = L.circleMarker(
+            var circle_marker_b833d910665ea16213d518fa82ef6a54 = L.circleMarker(
                 [25.03, -77.4],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_2bfdc9cbf47c2171ba68c828b52bc15f.bindTooltip(
+            circle_marker_b833d910665ea16213d518fa82ef6a54.bindTooltip(
                 `<div>
-                     Bahamas — Cluster 0
+                     Bahamas — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1139,13 +1139,13 @@
             );
         
     
-            var circle_marker_9092f4fcc24c244e7c9240b99f9e412e = L.circleMarker(
+            var circle_marker_e68e3d98c917abb958e3b8042ef3a686 = L.circleMarker(
                 [17.19, -88.5],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_9092f4fcc24c244e7c9240b99f9e412e.bindTooltip(
+            circle_marker_e68e3d98c917abb958e3b8042ef3a686.bindTooltip(
                 `<div>
                      Belize — Cluster 0
                  </div>`,
@@ -1155,13 +1155,13 @@
             );
         
     
-            var circle_marker_adc3757b8029699cbf441ddb4429a288 = L.circleMarker(
+            var circle_marker_a9dabcf367aba088de55cae95bf910ed = L.circleMarker(
                 [13.19, -59.54],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_adc3757b8029699cbf441ddb4429a288.bindTooltip(
+            circle_marker_a9dabcf367aba088de55cae95bf910ed.bindTooltip(
                 `<div>
                      Barbados — Cluster 0
                  </div>`,
@@ -1171,13 +1171,13 @@
             );
         
     
-            var circle_marker_8846794709e2f6d9de3617c7224b099c = L.circleMarker(
+            var circle_marker_dc7a0e0a93c91ca7e3be4c13c3ce9166 = L.circleMarker(
                 [13.91, -60.98],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_8846794709e2f6d9de3617c7224b099c.bindTooltip(
+            circle_marker_dc7a0e0a93c91ca7e3be4c13c3ce9166.bindTooltip(
                 `<div>
                      Saint Lucia — Cluster 0
                  </div>`,
@@ -1187,13 +1187,13 @@
             );
         
     
-            var circle_marker_156af6fdd464fd3a1ae628e76d7c085d = L.circleMarker(
+            var circle_marker_5868a28a118a8c3245ec7ac38e74fb3c = L.circleMarker(
                 [12.12, -61.68],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_156af6fdd464fd3a1ae628e76d7c085d.bindTooltip(
+            circle_marker_5868a28a118a8c3245ec7ac38e74fb3c.bindTooltip(
                 `<div>
                      Grenada — Cluster 0
                  </div>`,
@@ -1203,13 +1203,13 @@
             );
         
     
-            var circle_marker_b3e2348ad13ef64270d1757eb43f63a2 = L.circleMarker(
+            var circle_marker_2132eb13c8f3e6911691e97be7a631ca = L.circleMarker(
                 [17.06, -61.8],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_b3e2348ad13ef64270d1757eb43f63a2.bindTooltip(
+            circle_marker_2132eb13c8f3e6911691e97be7a631ca.bindTooltip(
                 `<div>
                      Antigua and Barbuda — Cluster 0
                  </div>`,
@@ -1219,13 +1219,13 @@
             );
         
     
-            var circle_marker_ea5297b4aac4306599c3507c17c91af5 = L.circleMarker(
+            var circle_marker_dfe06b3880f510057e6afebe40228371 = L.circleMarker(
                 [15.41, -61.37],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_ea5297b4aac4306599c3507c17c91af5.bindTooltip(
+            circle_marker_dfe06b3880f510057e6afebe40228371.bindTooltip(
                 `<div>
                      Dominica — Cluster 0
                  </div>`,
@@ -1235,13 +1235,13 @@
             );
         
     
-            var circle_marker_f80a6fdcca7aeb067928d28f5e04e8bd = L.circleMarker(
+            var circle_marker_7778d077a3b0aed1985aa3d362f5613a = L.circleMarker(
                 [-25.27, 133.78],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_f80a6fdcca7aeb067928d28f5e04e8bd.bindTooltip(
+            circle_marker_7778d077a3b0aed1985aa3d362f5613a.bindTooltip(
                 `<div>
                      Australia — Cluster 0
                  </div>`,
@@ -1251,13 +1251,13 @@
             );
         
     
-            var circle_marker_e738f9adcf8ce75ca60862efed6cae00 = L.circleMarker(
+            var circle_marker_a0f1220734bf851690ee70c3fa112c94 = L.circleMarker(
                 [-6.31, 143.96],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_e738f9adcf8ce75ca60862efed6cae00.bindTooltip(
+            circle_marker_a0f1220734bf851690ee70c3fa112c94.bindTooltip(
                 `<div>
                      Papua New Guinea — Cluster 0
                  </div>`,
@@ -1267,13 +1267,13 @@
             );
         
     
-            var circle_marker_e6eb9590467b8bbe2fd2ffae51676ba0 = L.circleMarker(
+            var circle_marker_0422d4af22d45c9dca4a22bc30c84258 = L.circleMarker(
                 [-40.9, 174.89],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_e6eb9590467b8bbe2fd2ffae51676ba0.bindTooltip(
+            circle_marker_0422d4af22d45c9dca4a22bc30c84258.bindTooltip(
                 `<div>
                      New Zealand — Cluster 0
                  </div>`,
@@ -1283,15 +1283,15 @@
             );
         
     
-            var circle_marker_e10970e1f9162544681139977c222429 = L.circleMarker(
+            var circle_marker_8a9c4b46a8731bdab581ba2730c73ee9 = L.circleMarker(
                 [-16.58, 179.41],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_e10970e1f9162544681139977c222429.bindTooltip(
+            circle_marker_8a9c4b46a8731bdab581ba2730c73ee9.bindTooltip(
                 `<div>
-                     Fiji — Cluster 0
+                     Fiji — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1299,13 +1299,13 @@
             );
         
     
-            var circle_marker_abde3eb54e7cb5b6c0f28a80a727036c = L.circleMarker(
+            var circle_marker_b91018e6fab1e108c594d300bf9e95af = L.circleMarker(
                 [-9.65, 160.16],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_abde3eb54e7cb5b6c0f28a80a727036c.bindTooltip(
+            circle_marker_b91018e6fab1e108c594d300bf9e95af.bindTooltip(
                 `<div>
                      Solomon Islands — Cluster 0
                  </div>`,
@@ -1315,13 +1315,13 @@
             );
         
     
-            var circle_marker_f4500bc4f9a3206e7512f58e416760c1 = L.circleMarker(
+            var circle_marker_9ffd7b71260acf89a9784dac769ad070 = L.circleMarker(
                 [-15.38, 166.96],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_f4500bc4f9a3206e7512f58e416760c1.bindTooltip(
+            circle_marker_9ffd7b71260acf89a9784dac769ad070.bindTooltip(
                 `<div>
                      Vanuatu — Cluster 0
                  </div>`,
@@ -1331,15 +1331,15 @@
             );
         
     
-            var circle_marker_bf63d03ed9d450ea9ea011b4662a534f = L.circleMarker(
+            var circle_marker_ce6802c22ce56a661f0a93a8c84f93f3 = L.circleMarker(
                 [-13.76, -172.1],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_bf63d03ed9d450ea9ea011b4662a534f.bindTooltip(
+            circle_marker_ce6802c22ce56a661f0a93a8c84f93f3.bindTooltip(
                 `<div>
-                     Samoa — Cluster 0
+                     Samoa — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1347,13 +1347,13 @@
             );
         
     
-            var circle_marker_b18606e0943bfd593ae86eda96b8c05f = L.circleMarker(
+            var circle_marker_375f82bfed3e3b6c1f6cc0aa66e257e4 = L.circleMarker(
                 [1.87, -157.36],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_b18606e0943bfd593ae86eda96b8c05f.bindTooltip(
+            circle_marker_375f82bfed3e3b6c1f6cc0aa66e257e4.bindTooltip(
                 `<div>
                      Kiribati — Cluster 0
                  </div>`,
@@ -1363,13 +1363,13 @@
             );
         
     
-            var circle_marker_0ff1f09d13bd2b587c93af3041037458 = L.circleMarker(
+            var circle_marker_f6b681a7654aadfd4697921e8a1b1f66 = L.circleMarker(
                 [-21.18, -175.2],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_0ff1f09d13bd2b587c93af3041037458.bindTooltip(
+            circle_marker_f6b681a7654aadfd4697921e8a1b1f66.bindTooltip(
                 `<div>
                      Tonga — Cluster 0
                  </div>`,
@@ -1379,15 +1379,15 @@
             );
         
     
-            var circle_marker_011bdef04a6888af73fed4eb9af63cbc = L.circleMarker(
+            var circle_marker_97951b0705a2bed319c48117a8681fa4 = L.circleMarker(
                 [33.93, 67.71],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_011bdef04a6888af73fed4eb9af63cbc.bindTooltip(
+            circle_marker_97951b0705a2bed319c48117a8681fa4.bindTooltip(
                 `<div>
-                     Afghanistan — Cluster 0
+                     Afghanistan — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1395,15 +1395,15 @@
             );
         
     
-            var circle_marker_277085d910f7be9ca398e7ba589d46de = L.circleMarker(
+            var circle_marker_e1943d6e87eea61c9cb1c2e9ef2edac1 = L.circleMarker(
                 [25.93, 50.64],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_277085d910f7be9ca398e7ba589d46de.bindTooltip(
+            circle_marker_e1943d6e87eea61c9cb1c2e9ef2edac1.bindTooltip(
                 `<div>
-                     Bahrain — Cluster 0
+                     Bahrain — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1411,15 +1411,15 @@
             );
         
     
-            var circle_marker_02ffbb857eaa392686a2e440bff90a56 = L.circleMarker(
+            var circle_marker_c5132ffe586f5c64b91ec71820cf7875 = L.circleMarker(
                 [23.68, 90.36],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_02ffbb857eaa392686a2e440bff90a56.bindTooltip(
+            circle_marker_c5132ffe586f5c64b91ec71820cf7875.bindTooltip(
                 `<div>
-                     Bangladesh — Cluster 0
+                     Bangladesh — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1427,15 +1427,15 @@
             );
         
     
-            var circle_marker_8be99c90339ae902e08baccec87797f7 = L.circleMarker(
+            var circle_marker_2f0480a443c093d75beec10b08c9d14f = L.circleMarker(
                 [27.51, 90.43],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_8be99c90339ae902e08baccec87797f7.bindTooltip(
+            circle_marker_2f0480a443c093d75beec10b08c9d14f.bindTooltip(
                 `<div>
-                     Bhutan — Cluster 0
+                     Bhutan — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1443,13 +1443,13 @@
             );
         
     
-            var circle_marker_839c57733e5f4caee54891995fdecbc1 = L.circleMarker(
+            var circle_marker_8e711792eb77507a61558e6f9fa197cf = L.circleMarker(
                 [4.54, 114.73],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_839c57733e5f4caee54891995fdecbc1.bindTooltip(
+            circle_marker_8e711792eb77507a61558e6f9fa197cf.bindTooltip(
                 `<div>
                      Brunei — Cluster 0
                  </div>`,
@@ -1459,31 +1459,15 @@
             );
         
     
-            var circle_marker_c6086ad7fa0ef429c62a8beef3f85ec2 = L.circleMarker(
+            var circle_marker_7e01c2e5c4c6ade1fc4616d9a88c1d5c = L.circleMarker(
                 [12.57, 104.99],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
-        
-    
-            circle_marker_c6086ad7fa0ef429c62a8beef3f85ec2.bindTooltip(
-                `<div>
-                     Cambodia — Cluster 0
-                 </div>`,
-                {
-  "sticky": true,
-}
-            );
-        
-    
-            var circle_marker_e5cf3f778c2ad6a32045dc4baceff479 = L.circleMarker(
-                [35.86, 104.2],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_e5cf3f778c2ad6a32045dc4baceff479.bindTooltip(
+            circle_marker_7e01c2e5c4c6ade1fc4616d9a88c1d5c.bindTooltip(
                 `<div>
-                     China — Cluster 2
+                     Cambodia — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1491,13 +1475,29 @@
             );
         
     
-            var circle_marker_58e08fb1b735d6f19405a2808a0d9bf3 = L.circleMarker(
+            var circle_marker_6dcfe05f7061388a8308251f6da17cf7 = L.circleMarker(
+                [35.86, 104.2],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#a65628", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
+        
+    
+            circle_marker_6dcfe05f7061388a8308251f6da17cf7.bindTooltip(
+                `<div>
+                     China — Cluster 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c52acb9de6d218b8921f0e4746828169 = L.circleMarker(
                 [20.59, 78.96],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_58e08fb1b735d6f19405a2808a0d9bf3.bindTooltip(
+            circle_marker_c52acb9de6d218b8921f0e4746828169.bindTooltip(
                 `<div>
                      India — Cluster 0
                  </div>`,
@@ -1507,13 +1507,13 @@
             );
         
     
-            var circle_marker_8729a39966f7d21cac4e09386b328713 = L.circleMarker(
+            var circle_marker_d43806872bac8608651bf05a18c91211 = L.circleMarker(
                 [-0.79, 113.92],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_8729a39966f7d21cac4e09386b328713.bindTooltip(
+            circle_marker_d43806872bac8608651bf05a18c91211.bindTooltip(
                 `<div>
                      Indonesia — Cluster 0
                  </div>`,
@@ -1523,15 +1523,15 @@
             );
         
     
-            var circle_marker_499ae36f74c92afbaf3a4e3f26b68a0d = L.circleMarker(
+            var circle_marker_0498d6940ebe6b2dad1fe580ebcee99b = L.circleMarker(
                 [32.43, 53.69],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_499ae36f74c92afbaf3a4e3f26b68a0d.bindTooltip(
+            circle_marker_0498d6940ebe6b2dad1fe580ebcee99b.bindTooltip(
                 `<div>
-                     Iran — Cluster 0
+                     Iran — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1539,15 +1539,15 @@
             );
         
     
-            var circle_marker_1ed006edf4ce3720fa8914ef3cdc25e1 = L.circleMarker(
+            var circle_marker_6a910e0e5e0b5d6737d336a42437bce7 = L.circleMarker(
                 [33.22, 43.68],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_1ed006edf4ce3720fa8914ef3cdc25e1.bindTooltip(
+            circle_marker_6a910e0e5e0b5d6737d336a42437bce7.bindTooltip(
                 `<div>
-                     Iraq — Cluster 0
+                     Iraq — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1555,15 +1555,15 @@
             );
         
     
-            var circle_marker_18647e589940aa8e9bf1478c682ae68f = L.circleMarker(
+            var circle_marker_8d67122ba4b9e817d65d81bbf8499448 = L.circleMarker(
                 [31.05, 34.85],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_18647e589940aa8e9bf1478c682ae68f.bindTooltip(
+            circle_marker_8d67122ba4b9e817d65d81bbf8499448.bindTooltip(
                 `<div>
-                     Israel — Cluster 0
+                     Israel — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1571,15 +1571,15 @@
             );
         
     
-            var circle_marker_155abfb50a79cbb68e0231ec16d43c48 = L.circleMarker(
+            var circle_marker_4b24417dc3455cc9623c5ce0c875f49e = L.circleMarker(
                 [36.2, 138.25],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_155abfb50a79cbb68e0231ec16d43c48.bindTooltip(
+            circle_marker_4b24417dc3455cc9623c5ce0c875f49e.bindTooltip(
                 `<div>
-                     Japan — Cluster 0
+                     Japan — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1587,15 +1587,15 @@
             );
         
     
-            var circle_marker_709fa732d43e3db729ee4dee59e13a24 = L.circleMarker(
+            var circle_marker_a803a87adef8b1ddfce08d2f94166c31 = L.circleMarker(
                 [30.59, 36.24],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_709fa732d43e3db729ee4dee59e13a24.bindTooltip(
+            circle_marker_a803a87adef8b1ddfce08d2f94166c31.bindTooltip(
                 `<div>
-                     Jordan — Cluster 0
+                     Jordan — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1603,15 +1603,15 @@
             );
         
     
-            var circle_marker_3631a06675f48c331a0edd6d3d6f98b8 = L.circleMarker(
+            var circle_marker_31d42879bb223c12710aef2dacc85c01 = L.circleMarker(
                 [48.02, 66.92],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_3631a06675f48c331a0edd6d3d6f98b8.bindTooltip(
+            circle_marker_31d42879bb223c12710aef2dacc85c01.bindTooltip(
                 `<div>
-                     Kazakhstan — Cluster 0
+                     Kazakhstan — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1619,13 +1619,13 @@
             );
         
     
-            var circle_marker_2e0f1bfe3f58fbe5314c8ae81dc18fb1 = L.circleMarker(
+            var circle_marker_05303e843452b0d71b9e016c3a8550da = L.circleMarker(
                 [29.31, 47.48],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_2e0f1bfe3f58fbe5314c8ae81dc18fb1.bindTooltip(
+            circle_marker_05303e843452b0d71b9e016c3a8550da.bindTooltip(
                 `<div>
                      Kuwait — Cluster 0
                  </div>`,
@@ -1635,13 +1635,13 @@
             );
         
     
-            var circle_marker_890135f45066efb531f16d1907b7106e = L.circleMarker(
+            var circle_marker_1af47e9ddeb07e0e104d48e2307ae66f = L.circleMarker(
                 [41.2, 74.77],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_890135f45066efb531f16d1907b7106e.bindTooltip(
+            circle_marker_1af47e9ddeb07e0e104d48e2307ae66f.bindTooltip(
                 `<div>
                      Kyrgyzstan — Cluster 0
                  </div>`,
@@ -1651,15 +1651,15 @@
             );
         
     
-            var circle_marker_f7c6c6df2c81cb16e6c9b0b1bb80f9ab = L.circleMarker(
+            var circle_marker_9192d1a48ddac88037070af96404a6e0 = L.circleMarker(
                 [19.86, 102.5],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_f7c6c6df2c81cb16e6c9b0b1bb80f9ab.bindTooltip(
+            circle_marker_9192d1a48ddac88037070af96404a6e0.bindTooltip(
                 `<div>
-                     Laos — Cluster 0
+                     Laos — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1667,15 +1667,15 @@
             );
         
     
-            var circle_marker_7faa4a7bd05140a6d35badbb2e1dfd97 = L.circleMarker(
+            var circle_marker_08ab4430ba1294f334df66922197f3cb = L.circleMarker(
                 [33.85, 35.86],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_7faa4a7bd05140a6d35badbb2e1dfd97.bindTooltip(
+            circle_marker_08ab4430ba1294f334df66922197f3cb.bindTooltip(
                 `<div>
-                     Lebanon — Cluster 0
+                     Lebanon — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1683,15 +1683,15 @@
             );
         
     
-            var circle_marker_0d525722f2a266457d64143a1bb23d3a = L.circleMarker(
+            var circle_marker_b7252a569bc50d2e54f0675f04c02cbe = L.circleMarker(
                 [4.21, 108.96],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_0d525722f2a266457d64143a1bb23d3a.bindTooltip(
+            circle_marker_b7252a569bc50d2e54f0675f04c02cbe.bindTooltip(
                 `<div>
-                     Malaysia — Cluster 0
+                     Malaysia — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1699,13 +1699,13 @@
             );
         
     
-            var circle_marker_5bfdeca43a4fd65c9d37aa923c2e4e0c = L.circleMarker(
+            var circle_marker_9f520eb13895d64978d5e892d65ea276 = L.circleMarker(
                 [1.98, 73.54],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_5bfdeca43a4fd65c9d37aa923c2e4e0c.bindTooltip(
+            circle_marker_9f520eb13895d64978d5e892d65ea276.bindTooltip(
                 `<div>
                      Maldives — Cluster 0
                  </div>`,
@@ -1715,15 +1715,15 @@
             );
         
     
-            var circle_marker_4d6af7b1a359380b934f6f3d5a387768 = L.circleMarker(
+            var circle_marker_706dec358b559b9243781271ba7dd7a6 = L.circleMarker(
                 [46.86, 103.85],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_4d6af7b1a359380b934f6f3d5a387768.bindTooltip(
+            circle_marker_706dec358b559b9243781271ba7dd7a6.bindTooltip(
                 `<div>
-                     Mongolia — Cluster 0
+                     Mongolia — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1731,15 +1731,15 @@
             );
         
     
-            var circle_marker_13af53e562910b24c6b1ccbd420af874 = L.circleMarker(
+            var circle_marker_2133cdbbe45edad17f1cf0b26b42e8d0 = L.circleMarker(
                 [21.92, 95.96],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_13af53e562910b24c6b1ccbd420af874.bindTooltip(
+            circle_marker_2133cdbbe45edad17f1cf0b26b42e8d0.bindTooltip(
                 `<div>
-                     Myanmar — Cluster 0
+                     Myanmar — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1747,15 +1747,15 @@
             );
         
     
-            var circle_marker_cf039c977c164e6cbd0e9944e9d4b12c = L.circleMarker(
+            var circle_marker_7d1e602126df51f16dcef6d456498ecc = L.circleMarker(
                 [28.39, 84.12],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_cf039c977c164e6cbd0e9944e9d4b12c.bindTooltip(
+            circle_marker_7d1e602126df51f16dcef6d456498ecc.bindTooltip(
                 `<div>
-                     Nepal — Cluster 0
+                     Nepal — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1763,15 +1763,15 @@
             );
         
     
-            var circle_marker_241b3a34dd60b412740517e5dea5220c = L.circleMarker(
+            var circle_marker_96588d95071ec724659af60bd09b93e1 = L.circleMarker(
                 [40.34, 127.51],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_241b3a34dd60b412740517e5dea5220c.bindTooltip(
+            circle_marker_96588d95071ec724659af60bd09b93e1.bindTooltip(
                 `<div>
-                     North Korea — Cluster 0
+                     North Korea — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1779,13 +1779,13 @@
             );
         
     
-            var circle_marker_c24d4707a340ffb3b7cfb16391f73f4c = L.circleMarker(
+            var circle_marker_f3b2b0de8f118ab4d6bfb1dad7d3ca4f = L.circleMarker(
                 [21.51, 55.92],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_c24d4707a340ffb3b7cfb16391f73f4c.bindTooltip(
+            circle_marker_f3b2b0de8f118ab4d6bfb1dad7d3ca4f.bindTooltip(
                 `<div>
                      Oman — Cluster 0
                  </div>`,
@@ -1795,13 +1795,13 @@
             );
         
     
-            var circle_marker_f754ff00bd45868e2097d37b9f210e6e = L.circleMarker(
+            var circle_marker_96e48971dc1185792243f2399942fe6f = L.circleMarker(
                 [30.38, 69.35],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_f754ff00bd45868e2097d37b9f210e6e.bindTooltip(
+            circle_marker_96e48971dc1185792243f2399942fe6f.bindTooltip(
                 `<div>
                      Pakistan — Cluster 0
                  </div>`,
@@ -1811,15 +1811,15 @@
             );
         
     
-            var circle_marker_a3ff79105d83837d99d8fa839a73bc8b = L.circleMarker(
+            var circle_marker_1a92aa5d7d3ffb1566fdaf90ee754596 = L.circleMarker(
                 [12.88, 121.77],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_a3ff79105d83837d99d8fa839a73bc8b.bindTooltip(
+            circle_marker_1a92aa5d7d3ffb1566fdaf90ee754596.bindTooltip(
                 `<div>
-                     Philippines — Cluster 0
+                     Philippines — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1827,15 +1827,15 @@
             );
         
     
-            var circle_marker_089f70f225ac72044b1509a2fd721b3c = L.circleMarker(
+            var circle_marker_9907a406d0e6212facc8a59f353ec2b0 = L.circleMarker(
                 [25.35, 51.18],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_089f70f225ac72044b1509a2fd721b3c.bindTooltip(
+            circle_marker_9907a406d0e6212facc8a59f353ec2b0.bindTooltip(
                 `<div>
-                     Qatar — Cluster 0
+                     Qatar — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1843,15 +1843,15 @@
             );
         
     
-            var circle_marker_552c33bbdd8210bb56b44e0644825eda = L.circleMarker(
+            var circle_marker_e59b915b3aa8bc5e387f3bdd29bc9acb = L.circleMarker(
                 [23.89, 45.08],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_552c33bbdd8210bb56b44e0644825eda.bindTooltip(
+            circle_marker_e59b915b3aa8bc5e387f3bdd29bc9acb.bindTooltip(
                 `<div>
-                     Saudi Arabia — Cluster 0
+                     Saudi Arabia — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1859,15 +1859,15 @@
             );
         
     
-            var circle_marker_a77272ccbb005c52bda95550cd14afac = L.circleMarker(
+            var circle_marker_ede6d40a6e72e7fb8050878bedb9bb8d = L.circleMarker(
                 [1.35, 103.82],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_a77272ccbb005c52bda95550cd14afac.bindTooltip(
+            circle_marker_ede6d40a6e72e7fb8050878bedb9bb8d.bindTooltip(
                 `<div>
-                     Singapore — Cluster 0
+                     Singapore — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1875,15 +1875,15 @@
             );
         
     
-            var circle_marker_a6dcbae32cd75a2cbe5b78642413ba8b = L.circleMarker(
+            var circle_marker_ec9dd41deb0a35d673eddb13f5991b9d = L.circleMarker(
                 [35.91, 127.77],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_a6dcbae32cd75a2cbe5b78642413ba8b.bindTooltip(
+            circle_marker_ec9dd41deb0a35d673eddb13f5991b9d.bindTooltip(
                 `<div>
-                     South Korea — Cluster 0
+                     South Korea — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1891,13 +1891,13 @@
             );
         
     
-            var circle_marker_db28483b025616747c728372a8bd2bb2 = L.circleMarker(
+            var circle_marker_c9c4b5952f73eb2cb60baa6f80702061 = L.circleMarker(
                 [7.87, 80.77],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_db28483b025616747c728372a8bd2bb2.bindTooltip(
+            circle_marker_c9c4b5952f73eb2cb60baa6f80702061.bindTooltip(
                 `<div>
                      Sri Lanka — Cluster 0
                  </div>`,
@@ -1907,15 +1907,15 @@
             );
         
     
-            var circle_marker_b8b51997389c19fdb56805741bb0ea30 = L.circleMarker(
+            var circle_marker_721727f181a3661ba5c6e5beeae7f7f7 = L.circleMarker(
                 [34.8, 38.99],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_b8b51997389c19fdb56805741bb0ea30.bindTooltip(
+            circle_marker_721727f181a3661ba5c6e5beeae7f7f7.bindTooltip(
                 `<div>
-                     Syria — Cluster 0
+                     Syria — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1923,15 +1923,15 @@
             );
         
     
-            var circle_marker_efc7a07f3e02a2b8c6543c2c576ce3cb = L.circleMarker(
+            var circle_marker_1b37652475a5491034ef3a7b62110a14 = L.circleMarker(
                 [38.86, 71.28],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_efc7a07f3e02a2b8c6543c2c576ce3cb.bindTooltip(
+            circle_marker_1b37652475a5491034ef3a7b62110a14.bindTooltip(
                 `<div>
-                     Tajikistan — Cluster 0
+                     Tajikistan — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1939,15 +1939,15 @@
             );
         
     
-            var circle_marker_aee1bf59592b28113b8adcdd28e094a6 = L.circleMarker(
+            var circle_marker_b0f98ecaef808a28a63e3d4bfcb0aa87 = L.circleMarker(
                 [15.87, 100.99],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_aee1bf59592b28113b8adcdd28e094a6.bindTooltip(
+            circle_marker_b0f98ecaef808a28a63e3d4bfcb0aa87.bindTooltip(
                 `<div>
-                     Thailand — Cluster 0
+                     Thailand — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1955,15 +1955,15 @@
             );
         
     
-            var circle_marker_9bc70bce2c30b82efae436227d43f023 = L.circleMarker(
+            var circle_marker_af3fc957a06f3df79c96c30073d78fa4 = L.circleMarker(
                 [38.96, 35.24],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_9bc70bce2c30b82efae436227d43f023.bindTooltip(
+            circle_marker_af3fc957a06f3df79c96c30073d78fa4.bindTooltip(
                 `<div>
-                     Turkey — Cluster 0
+                     Turkey — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -1971,15 +1971,15 @@
             );
         
     
-            var circle_marker_8f6f340895f9858b2afb669b1fc3cd80 = L.circleMarker(
+            var circle_marker_d50e2fe8b6e0278f3265924f9ca0813d = L.circleMarker(
                 [38.97, 59.56],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_8f6f340895f9858b2afb669b1fc3cd80.bindTooltip(
+            circle_marker_d50e2fe8b6e0278f3265924f9ca0813d.bindTooltip(
                 `<div>
-                     Turkmenistan — Cluster 0
+                     Turkmenistan — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -1987,13 +1987,13 @@
             );
         
     
-            var circle_marker_0d6c1af6661317c4146e46da7213af59 = L.circleMarker(
+            var circle_marker_4c0d783080848df9caaa41d754726f2d = L.circleMarker(
                 [23.42, 53.85],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_0d6c1af6661317c4146e46da7213af59.bindTooltip(
+            circle_marker_4c0d783080848df9caaa41d754726f2d.bindTooltip(
                 `<div>
                      United Arab Emirates — Cluster 0
                  </div>`,
@@ -2003,15 +2003,15 @@
             );
         
     
-            var circle_marker_749905361c20baba75d14c499943cfb9 = L.circleMarker(
+            var circle_marker_78e01dfc8dd428391870f15d17bb84da = L.circleMarker(
                 [41.38, 64.59],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_749905361c20baba75d14c499943cfb9.bindTooltip(
+            circle_marker_78e01dfc8dd428391870f15d17bb84da.bindTooltip(
                 `<div>
-                     Uzbekistan — Cluster 0
+                     Uzbekistan — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2019,15 +2019,15 @@
             );
         
     
-            var circle_marker_bbd720c35bd13ca287099fb69a4427a0 = L.circleMarker(
+            var circle_marker_92b1c36b1a1234243ff7d2ea5c3b6acd = L.circleMarker(
                 [14.06, 108.28],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_bbd720c35bd13ca287099fb69a4427a0.bindTooltip(
+            circle_marker_92b1c36b1a1234243ff7d2ea5c3b6acd.bindTooltip(
                 `<div>
-                     Vietnam — Cluster 0
+                     Vietnam — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2035,13 +2035,13 @@
             );
         
     
-            var circle_marker_f40fd4c460b6832b4bc7431a191de7b8 = L.circleMarker(
+            var circle_marker_8bf657f45a95de87d1ab83b1d0d71a35 = L.circleMarker(
                 [15.55, 48.52],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_f40fd4c460b6832b4bc7431a191de7b8.bindTooltip(
+            circle_marker_8bf657f45a95de87d1ab83b1d0d71a35.bindTooltip(
                 `<div>
                      Yemen — Cluster 0
                  </div>`,
@@ -2051,15 +2051,15 @@
             );
         
     
-            var circle_marker_44e401503b285f6969b83ab60a2a5eb5 = L.circleMarker(
+            var circle_marker_783843e361dc7537cc0a7af9a5cbb73f = L.circleMarker(
                 [28.03, 1.66],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_44e401503b285f6969b83ab60a2a5eb5.bindTooltip(
+            circle_marker_783843e361dc7537cc0a7af9a5cbb73f.bindTooltip(
                 `<div>
-                     Algeria — Cluster 0
+                     Algeria — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2067,15 +2067,15 @@
             );
         
     
-            var circle_marker_ae32deae9915f843ea39824d31015ea4 = L.circleMarker(
+            var circle_marker_5c98f7dc8b991fdfc1cc6e09fb28ba75 = L.circleMarker(
                 [-11.2, 17.87],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_ae32deae9915f843ea39824d31015ea4.bindTooltip(
+            circle_marker_5c98f7dc8b991fdfc1cc6e09fb28ba75.bindTooltip(
                 `<div>
-                     Angola — Cluster 0
+                     Angola — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2083,13 +2083,13 @@
             );
         
     
-            var circle_marker_a0e7396074c9b0405b4501e818b71799 = L.circleMarker(
+            var circle_marker_986372e708d4c9ddfdbeb5198b22d876 = L.circleMarker(
                 [9.31, 2.32],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_a0e7396074c9b0405b4501e818b71799.bindTooltip(
+            circle_marker_986372e708d4c9ddfdbeb5198b22d876.bindTooltip(
                 `<div>
                      Benin — Cluster 0
                  </div>`,
@@ -2099,13 +2099,13 @@
             );
         
     
-            var circle_marker_7f8ac026d0a90bc0cde77d83b4a11ada = L.circleMarker(
+            var circle_marker_47448f3e682e6ce1c68f73651f5eb237 = L.circleMarker(
                 [-22.33, 24.68],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_7f8ac026d0a90bc0cde77d83b4a11ada.bindTooltip(
+            circle_marker_47448f3e682e6ce1c68f73651f5eb237.bindTooltip(
                 `<div>
                      Botswana — Cluster 0
                  </div>`,
@@ -2115,15 +2115,15 @@
             );
         
     
-            var circle_marker_6c09844c034664e3e3dd00cf11f71d31 = L.circleMarker(
+            var circle_marker_cdb76fe59ea06c95f8035823a7f8db44 = L.circleMarker(
                 [12.36, -1.53],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_6c09844c034664e3e3dd00cf11f71d31.bindTooltip(
+            circle_marker_cdb76fe59ea06c95f8035823a7f8db44.bindTooltip(
                 `<div>
-                     Burkina Faso — Cluster 0
+                     Burkina Faso — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -2131,13 +2131,13 @@
             );
         
     
-            var circle_marker_936a7941d2d565b8bb2ebb4878b8be03 = L.circleMarker(
+            var circle_marker_3edd760362e6134fd5f555741b925742 = L.circleMarker(
                 [-3.37, 29.92],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_936a7941d2d565b8bb2ebb4878b8be03.bindTooltip(
+            circle_marker_3edd760362e6134fd5f555741b925742.bindTooltip(
                 `<div>
                      Burundi — Cluster 0
                  </div>`,
@@ -2147,15 +2147,15 @@
             );
         
     
-            var circle_marker_fcba62e5fee80e1e5223148aa0fcdc4e = L.circleMarker(
+            var circle_marker_7e54d0ccd10810196689b42936529c94 = L.circleMarker(
                 [7.37, 12.35],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_fcba62e5fee80e1e5223148aa0fcdc4e.bindTooltip(
+            circle_marker_7e54d0ccd10810196689b42936529c94.bindTooltip(
                 `<div>
-                     Cameroon — Cluster 0
+                     Cameroon — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -2163,15 +2163,15 @@
             );
         
     
-            var circle_marker_4605dafe68f309000bd861abba5efcc4 = L.circleMarker(
+            var circle_marker_9f6d134da3de06fa708056bd55e23cc5 = L.circleMarker(
                 [6.61, 20.94],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_4605dafe68f309000bd861abba5efcc4.bindTooltip(
+            circle_marker_9f6d134da3de06fa708056bd55e23cc5.bindTooltip(
                 `<div>
-                     Central African Republic — Cluster 0
+                     Central African Republic — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2179,13 +2179,13 @@
             );
         
     
-            var circle_marker_e24254fb5c6a799758b2cb8b2efae6ba = L.circleMarker(
+            var circle_marker_3058b53eb626115a23995adf1cf05fca = L.circleMarker(
                 [15.45, 18.73],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_e24254fb5c6a799758b2cb8b2efae6ba.bindTooltip(
+            circle_marker_3058b53eb626115a23995adf1cf05fca.bindTooltip(
                 `<div>
                      Chad — Cluster 0
                  </div>`,
@@ -2195,13 +2195,13 @@
             );
         
     
-            var circle_marker_6420aba67206acba19bb0b77ed6054ff = L.circleMarker(
+            var circle_marker_dd4017f5eaa2a48bf9bda666126766c2 = L.circleMarker(
                 [-11.64, 43.33],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_6420aba67206acba19bb0b77ed6054ff.bindTooltip(
+            circle_marker_dd4017f5eaa2a48bf9bda666126766c2.bindTooltip(
                 `<div>
                      Comoros — Cluster 0
                  </div>`,
@@ -2211,15 +2211,15 @@
             );
         
     
-            var circle_marker_7f759d3586484b4f199fd1f3e8bf43a0 = L.circleMarker(
+            var circle_marker_d9918ff0f3274bf68f4defca1145b2c7 = L.circleMarker(
                 [11.83, 42.59],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_7f759d3586484b4f199fd1f3e8bf43a0.bindTooltip(
+            circle_marker_d9918ff0f3274bf68f4defca1145b2c7.bindTooltip(
                 `<div>
-                     Djibouti — Cluster 0
+                     Djibouti — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -2227,15 +2227,15 @@
             );
         
     
-            var circle_marker_cf23e4e565ca27149d96bf41d3701f01 = L.circleMarker(
+            var circle_marker_2852e14d6465ec6e93eca53c67f05450 = L.circleMarker(
                 [26.82, 30.8],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_cf23e4e565ca27149d96bf41d3701f01.bindTooltip(
+            circle_marker_2852e14d6465ec6e93eca53c67f05450.bindTooltip(
                 `<div>
-                     Egypt — Cluster 0
+                     Egypt — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -2243,13 +2243,13 @@
             );
         
     
-            var circle_marker_b2d9efbe05c7cadbbc62cd80e145808d = L.circleMarker(
+            var circle_marker_4add41b73520bc0af2a3ef0b60bd4050 = L.circleMarker(
                 [1.65, 10.27],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_b2d9efbe05c7cadbbc62cd80e145808d.bindTooltip(
+            circle_marker_4add41b73520bc0af2a3ef0b60bd4050.bindTooltip(
                 `<div>
                      Equatorial Guinea — Cluster 0
                  </div>`,
@@ -2259,13 +2259,13 @@
             );
         
     
-            var circle_marker_d82b8c6aa59bd0333cb28ae8518748a2 = L.circleMarker(
+            var circle_marker_d612af3ad30fc5ea268b101313a77b41 = L.circleMarker(
                 [15.18, 39.78],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_d82b8c6aa59bd0333cb28ae8518748a2.bindTooltip(
+            circle_marker_d612af3ad30fc5ea268b101313a77b41.bindTooltip(
                 `<div>
                      Eritrea — Cluster 0
                  </div>`,
@@ -2275,13 +2275,13 @@
             );
         
     
-            var circle_marker_422eb3131f0de88d9c7a9bc163eccb0c = L.circleMarker(
+            var circle_marker_e5e547b30b3b52432eb3a807db68079d = L.circleMarker(
                 [9.15, 40.49],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_422eb3131f0de88d9c7a9bc163eccb0c.bindTooltip(
+            circle_marker_e5e547b30b3b52432eb3a807db68079d.bindTooltip(
                 `<div>
                      Ethiopia — Cluster 0
                  </div>`,
@@ -2291,13 +2291,13 @@
             );
         
     
-            var circle_marker_8518e9de24fe5cb11dd7a9d19298fbe5 = L.circleMarker(
+            var circle_marker_0493789730b6cc7acaeae3167d5abe48 = L.circleMarker(
                 [-0.8, 11.61],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_8518e9de24fe5cb11dd7a9d19298fbe5.bindTooltip(
+            circle_marker_0493789730b6cc7acaeae3167d5abe48.bindTooltip(
                 `<div>
                      Gabon — Cluster 0
                  </div>`,
@@ -2307,13 +2307,13 @@
             );
         
     
-            var circle_marker_79e1de77f8dcaa21f78b2de23e32c89c = L.circleMarker(
+            var circle_marker_037a106e6ed6d50f86cd16388d94f9da = L.circleMarker(
                 [13.44, -15.31],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_79e1de77f8dcaa21f78b2de23e32c89c.bindTooltip(
+            circle_marker_037a106e6ed6d50f86cd16388d94f9da.bindTooltip(
                 `<div>
                      Gambia — Cluster 0
                  </div>`,
@@ -2323,13 +2323,13 @@
             );
         
     
-            var circle_marker_270f8fbf5e69985aaea8ecb2d4c73a7e = L.circleMarker(
+            var circle_marker_c54c37b39a425fa429d30ab446d25dae = L.circleMarker(
                 [7.95, -1.02],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_270f8fbf5e69985aaea8ecb2d4c73a7e.bindTooltip(
+            circle_marker_c54c37b39a425fa429d30ab446d25dae.bindTooltip(
                 `<div>
                      Ghana — Cluster 0
                  </div>`,
@@ -2339,15 +2339,15 @@
             );
         
     
-            var circle_marker_9ef5c6c213429085e6ec83834b6bcbaf = L.circleMarker(
+            var circle_marker_2a313ccb5759d4eda4bff7f2d7a79b2b = L.circleMarker(
                 [9.95, -11.24],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_9ef5c6c213429085e6ec83834b6bcbaf.bindTooltip(
+            circle_marker_2a313ccb5759d4eda4bff7f2d7a79b2b.bindTooltip(
                 `<div>
-                     Guinea — Cluster 0
+                     Guinea — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2355,15 +2355,15 @@
             );
         
     
-            var circle_marker_f59d82bc1bcda17103d0a02c6e14ed37 = L.circleMarker(
+            var circle_marker_2e8dd956dea287d300f722d82fafcf10 = L.circleMarker(
                 [11.8, -15.18],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_f59d82bc1bcda17103d0a02c6e14ed37.bindTooltip(
+            circle_marker_2e8dd956dea287d300f722d82fafcf10.bindTooltip(
                 `<div>
-                     Guinea-Bissau — Cluster 0
+                     Guinea-Bissau — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -2371,13 +2371,13 @@
             );
         
     
-            var circle_marker_37561a66e7718fd15f30f45e686a410d = L.circleMarker(
+            var circle_marker_051f8d799557e4794171ea2896d5bcab = L.circleMarker(
                 [-0.02, 37.91],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_37561a66e7718fd15f30f45e686a410d.bindTooltip(
+            circle_marker_051f8d799557e4794171ea2896d5bcab.bindTooltip(
                 `<div>
                      Kenya — Cluster 0
                  </div>`,
@@ -2387,13 +2387,13 @@
             );
         
     
-            var circle_marker_4ee5fd3568a12079852bb2203a13d8b3 = L.circleMarker(
+            var circle_marker_2cde8aba6b7940549c5b71aabb91224e = L.circleMarker(
                 [-29.61, 28.23],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_4ee5fd3568a12079852bb2203a13d8b3.bindTooltip(
+            circle_marker_2cde8aba6b7940549c5b71aabb91224e.bindTooltip(
                 `<div>
                      Lesotho — Cluster 0
                  </div>`,
@@ -2403,15 +2403,15 @@
             );
         
     
-            var circle_marker_b9093fb040906ec27e5e1d5974e04563 = L.circleMarker(
+            var circle_marker_eec6ef103149f4fb646edf132ec97603 = L.circleMarker(
                 [6.43, -9.43],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_b9093fb040906ec27e5e1d5974e04563.bindTooltip(
+            circle_marker_eec6ef103149f4fb646edf132ec97603.bindTooltip(
                 `<div>
-                     Liberia — Cluster 0
+                     Liberia — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -2419,15 +2419,15 @@
             );
         
     
-            var circle_marker_70e1a262da1d76630ad830303ee82b6b = L.circleMarker(
+            var circle_marker_695e29bf5e5b66adcb193c7a74b7e618 = L.circleMarker(
                 [26.34, 17.23],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_70e1a262da1d76630ad830303ee82b6b.bindTooltip(
+            circle_marker_695e29bf5e5b66adcb193c7a74b7e618.bindTooltip(
                 `<div>
-                     Libya — Cluster 0
+                     Libya — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2435,13 +2435,13 @@
             );
         
     
-            var circle_marker_bcd26ad58ab0b7a80f99de7c66728af2 = L.circleMarker(
+            var circle_marker_f48a9a0e42bbf91b702f8c7e48a74dbb = L.circleMarker(
                 [-18.77, 46.87],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_bcd26ad58ab0b7a80f99de7c66728af2.bindTooltip(
+            circle_marker_f48a9a0e42bbf91b702f8c7e48a74dbb.bindTooltip(
                 `<div>
                      Madagascar — Cluster 0
                  </div>`,
@@ -2451,13 +2451,13 @@
             );
         
     
-            var circle_marker_262ba82ceeb0aed101e09ef24c9f903f = L.circleMarker(
+            var circle_marker_f7909cd67c077bd4605f30621317140c = L.circleMarker(
                 [-13.25, 34.3],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_262ba82ceeb0aed101e09ef24c9f903f.bindTooltip(
+            circle_marker_f7909cd67c077bd4605f30621317140c.bindTooltip(
                 `<div>
                      Malawi — Cluster 0
                  </div>`,
@@ -2467,15 +2467,15 @@
             );
         
     
-            var circle_marker_384748a5f52d92832ecaae799d712cf9 = L.circleMarker(
+            var circle_marker_120166993fb5da87ab496145d0393ae0 = L.circleMarker(
                 [17.57, -4.0],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_384748a5f52d92832ecaae799d712cf9.bindTooltip(
+            circle_marker_120166993fb5da87ab496145d0393ae0.bindTooltip(
                 `<div>
-                     Mali — Cluster 0
+                     Mali — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2483,13 +2483,13 @@
             );
         
     
-            var circle_marker_59a7b467beb7fb6f69ee630b234322d5 = L.circleMarker(
+            var circle_marker_38b7ff773d54b66d3c6f5675d4302cb8 = L.circleMarker(
                 [21.01, -10.94],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_59a7b467beb7fb6f69ee630b234322d5.bindTooltip(
+            circle_marker_38b7ff773d54b66d3c6f5675d4302cb8.bindTooltip(
                 `<div>
                      Mauritania — Cluster 0
                  </div>`,
@@ -2499,15 +2499,15 @@
             );
         
     
-            var circle_marker_aea47bac4e1cbc94e9d0003b5c7ff3c6 = L.circleMarker(
+            var circle_marker_9a789283df382488a396c30f94814fb9 = L.circleMarker(
                 [-20.35, 57.55],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_aea47bac4e1cbc94e9d0003b5c7ff3c6.bindTooltip(
+            circle_marker_9a789283df382488a396c30f94814fb9.bindTooltip(
                 `<div>
-                     Mauritius — Cluster 0
+                     Mauritius — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2515,15 +2515,15 @@
             );
         
     
-            var circle_marker_18eb837d476c22e3b3d511d295a2f9e8 = L.circleMarker(
+            var circle_marker_6804250a273506effc18607a51574e5e = L.circleMarker(
                 [31.79, -7.09],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_18eb837d476c22e3b3d511d295a2f9e8.bindTooltip(
+            circle_marker_6804250a273506effc18607a51574e5e.bindTooltip(
                 `<div>
-                     Morocco — Cluster 0
+                     Morocco — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2531,15 +2531,15 @@
             );
         
     
-            var circle_marker_8d764886b6494a77019158ddd2ec994a = L.circleMarker(
+            var circle_marker_da945955a84fe2505f87a414b06cac4d = L.circleMarker(
                 [-18.67, 35.53],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_8d764886b6494a77019158ddd2ec994a.bindTooltip(
+            circle_marker_da945955a84fe2505f87a414b06cac4d.bindTooltip(
                 `<div>
-                     Mozambique — Cluster 0
+                     Mozambique — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -2547,15 +2547,15 @@
             );
         
     
-            var circle_marker_e5115f76949e071676804f30a65edc18 = L.circleMarker(
+            var circle_marker_c6aa4cd8b9cd503d19e8ee22469be0d8 = L.circleMarker(
                 [-22.96, 18.49],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_e5115f76949e071676804f30a65edc18.bindTooltip(
+            circle_marker_c6aa4cd8b9cd503d19e8ee22469be0d8.bindTooltip(
                 `<div>
-                     Namibia — Cluster 0
+                     Namibia — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2563,13 +2563,13 @@
             );
         
     
-            var circle_marker_8df20413ab08012009f2c5233a31cda3 = L.circleMarker(
+            var circle_marker_fc956d56afce9e899186908921f881f5 = L.circleMarker(
                 [17.61, 8.08],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_8df20413ab08012009f2c5233a31cda3.bindTooltip(
+            circle_marker_fc956d56afce9e899186908921f881f5.bindTooltip(
                 `<div>
                      Niger — Cluster 0
                  </div>`,
@@ -2579,13 +2579,13 @@
             );
         
     
-            var circle_marker_32d5ee23e50262312c3fb7219e3f28ab = L.circleMarker(
+            var circle_marker_77d66747e610d38777edb2385ca2013b = L.circleMarker(
                 [9.08, 8.68],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_32d5ee23e50262312c3fb7219e3f28ab.bindTooltip(
+            circle_marker_77d66747e610d38777edb2385ca2013b.bindTooltip(
                 `<div>
                      Nigeria — Cluster 0
                  </div>`,
@@ -2595,15 +2595,15 @@
             );
         
     
-            var circle_marker_fcdb5d3e0626a8589e20470cd64bd95f = L.circleMarker(
+            var circle_marker_eef99bf63300a4d3394eef14077fb814 = L.circleMarker(
                 [-0.23, 15.83],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#984ea3", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_fcdb5d3e0626a8589e20470cd64bd95f.bindTooltip(
+            circle_marker_eef99bf63300a4d3394eef14077fb814.bindTooltip(
                 `<div>
-                     Republic of the Congo — Cluster 1
+                     Republic of the Congo — Cluster 4
                  </div>`,
                 {
   "sticky": true,
@@ -2611,15 +2611,15 @@
             );
         
     
-            var circle_marker_347a113d86157ada60b036861c8ba7bb = L.circleMarker(
+            var circle_marker_cf021b95505ca07d1f51bf2940fb8e0d = L.circleMarker(
                 [-1.94, 29.87],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_347a113d86157ada60b036861c8ba7bb.bindTooltip(
+            circle_marker_cf021b95505ca07d1f51bf2940fb8e0d.bindTooltip(
                 `<div>
-                     Rwanda — Cluster 0
+                     Rwanda — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2627,13 +2627,13 @@
             );
         
     
-            var circle_marker_27b2edceae30065880fc4bea7cf98690 = L.circleMarker(
+            var circle_marker_c9f62cd83fa60c304e1d0859ae3ed95b = L.circleMarker(
                 [0.19, 6.61],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_27b2edceae30065880fc4bea7cf98690.bindTooltip(
+            circle_marker_c9f62cd83fa60c304e1d0859ae3ed95b.bindTooltip(
                 `<div>
                      Sao Tome and Principe — Cluster 0
                  </div>`,
@@ -2643,15 +2643,15 @@
             );
         
     
-            var circle_marker_9ac49e0747f5fcef7eab37678d9a59c3 = L.circleMarker(
+            var circle_marker_6bbc22dd44ef878df70f222d6113d973 = L.circleMarker(
                 [14.5, -14.45],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_9ac49e0747f5fcef7eab37678d9a59c3.bindTooltip(
+            circle_marker_6bbc22dd44ef878df70f222d6113d973.bindTooltip(
                 `<div>
-                     Senegal — Cluster 0
+                     Senegal — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2659,15 +2659,15 @@
             );
         
     
-            var circle_marker_56e4763d03bc851c66eefc698a07d4b5 = L.circleMarker(
+            var circle_marker_3807e3b5ab008e9b0d520e5282a21ac0 = L.circleMarker(
                 [-4.68, 55.49],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_56e4763d03bc851c66eefc698a07d4b5.bindTooltip(
+            circle_marker_3807e3b5ab008e9b0d520e5282a21ac0.bindTooltip(
                 `<div>
-                     Seychelles — Cluster 0
+                     Seychelles — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2675,13 +2675,13 @@
             );
         
     
-            var circle_marker_bcd7a307d0d4a7eadf7f45c576c60000 = L.circleMarker(
+            var circle_marker_fc9da25141a7c40296db38230c8d0c8c = L.circleMarker(
                 [8.46, -11.78],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_bcd7a307d0d4a7eadf7f45c576c60000.bindTooltip(
+            circle_marker_fc9da25141a7c40296db38230c8d0c8c.bindTooltip(
                 `<div>
                      Sierra Leone — Cluster 0
                  </div>`,
@@ -2691,15 +2691,15 @@
             );
         
     
-            var circle_marker_9b70e3eddb7bc32fd2261775a535f2b1 = L.circleMarker(
+            var circle_marker_b45ede1db0b69c5e85d48855b74a7a02 = L.circleMarker(
                 [5.15, 46.2],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_9b70e3eddb7bc32fd2261775a535f2b1.bindTooltip(
+            circle_marker_b45ede1db0b69c5e85d48855b74a7a02.bindTooltip(
                 `<div>
-                     Somalia — Cluster 0
+                     Somalia — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -2707,13 +2707,13 @@
             );
         
     
-            var circle_marker_b9d2cab95d1742eb34d58aad8056c0a2 = L.circleMarker(
+            var circle_marker_347a5f3e89c341de846a28e047f82497 = L.circleMarker(
                 [-30.56, 22.94],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_b9d2cab95d1742eb34d58aad8056c0a2.bindTooltip(
+            circle_marker_347a5f3e89c341de846a28e047f82497.bindTooltip(
                 `<div>
                      South Africa — Cluster 0
                  </div>`,
@@ -2723,13 +2723,13 @@
             );
         
     
-            var circle_marker_9e96f70fdf0784ad877da999f0b7d97c = L.circleMarker(
+            var circle_marker_f0e566b44fb1bb04cb19992de9166057 = L.circleMarker(
                 [6.88, 31.31],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_9e96f70fdf0784ad877da999f0b7d97c.bindTooltip(
+            circle_marker_f0e566b44fb1bb04cb19992de9166057.bindTooltip(
                 `<div>
                      South Sudan — Cluster 0
                  </div>`,
@@ -2739,15 +2739,15 @@
             );
         
     
-            var circle_marker_219cffd41ec2952a4669306e9ae9f8ec = L.circleMarker(
+            var circle_marker_6d23d7430af30dd9cdcc4fd04a57fd70 = L.circleMarker(
                 [12.86, 30.22],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_219cffd41ec2952a4669306e9ae9f8ec.bindTooltip(
+            circle_marker_6d23d7430af30dd9cdcc4fd04a57fd70.bindTooltip(
                 `<div>
-                     Sudan — Cluster 0
+                     Sudan — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2755,13 +2755,13 @@
             );
         
     
-            var circle_marker_0421cd02816f1e2e3875b545f93bbacf = L.circleMarker(
+            var circle_marker_e0d8456a7326b3868a02a29458b403b0 = L.circleMarker(
                 [-6.37, 34.89],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_0421cd02816f1e2e3875b545f93bbacf.bindTooltip(
+            circle_marker_e0d8456a7326b3868a02a29458b403b0.bindTooltip(
                 `<div>
                      Tanzania — Cluster 0
                  </div>`,
@@ -2771,13 +2771,13 @@
             );
         
     
-            var circle_marker_58b469e61fff81bec9bbb356d1a94582 = L.circleMarker(
+            var circle_marker_545bfb64c8447dc4dc0586d6c49f6eb4 = L.circleMarker(
                 [8.62, 0.82],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_58b469e61fff81bec9bbb356d1a94582.bindTooltip(
+            circle_marker_545bfb64c8447dc4dc0586d6c49f6eb4.bindTooltip(
                 `<div>
                      Togo — Cluster 0
                  </div>`,
@@ -2787,15 +2787,15 @@
             );
         
     
-            var circle_marker_4b9488a33bfd08ec723ef551fe854019 = L.circleMarker(
+            var circle_marker_e67c2a5f8823d7cbf96dcad019ad3772 = L.circleMarker(
                 [33.89, 9.54],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#377eb8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_4b9488a33bfd08ec723ef551fe854019.bindTooltip(
+            circle_marker_e67c2a5f8823d7cbf96dcad019ad3772.bindTooltip(
                 `<div>
-                     Tunisia — Cluster 0
+                     Tunisia — Cluster 1
                  </div>`,
                 {
   "sticky": true,
@@ -2803,15 +2803,15 @@
             );
         
     
-            var circle_marker_6d5681ddc87c5d9bcf58e1ff7f2ced24 = L.circleMarker(
+            var circle_marker_b6c78ee4cd9915555c799f196d6d6f9d = L.circleMarker(
                 [1.37, 32.29],
-                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4daf4a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_6d5681ddc87c5d9bcf58e1ff7f2ced24.bindTooltip(
+            circle_marker_b6c78ee4cd9915555c799f196d6d6f9d.bindTooltip(
                 `<div>
-                     Uganda — Cluster 0
+                     Uganda — Cluster 2
                  </div>`,
                 {
   "sticky": true,
@@ -2819,13 +2819,13 @@
             );
         
     
-            var circle_marker_1c1201d56acd7c676f3fc3d40068d3da = L.circleMarker(
+            var circle_marker_e0f8410c6389e1ea69fc867766b9bb24 = L.circleMarker(
                 [-13.13, 27.85],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_1c1201d56acd7c676f3fc3d40068d3da.bindTooltip(
+            circle_marker_e0f8410c6389e1ea69fc867766b9bb24.bindTooltip(
                 `<div>
                      Zambia — Cluster 0
                  </div>`,
@@ -2835,13 +2835,13 @@
             );
         
     
-            var circle_marker_14ba96cdb53ed47ce54741acffe0796a = L.circleMarker(
+            var circle_marker_d6e1b88c2326e77edfd56b489eca4d08 = L.circleMarker(
                 [-19.02, 29.15],
                 {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e41a1c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 1}
-            ).addTo(map_fa7ab41d1bc5e9cb97217d19eb259949);
+            ).addTo(map_2c0f761f59898c1e09f378e8695e990d);
         
     
-            circle_marker_14ba96cdb53ed47ce54741acffe0796a.bindTooltip(
+            circle_marker_d6e1b88c2326e77edfd56b489eca4d08.bindTooltip(
                 `<div>
                      Zimbabwe — Cluster 0
                  </div>`,
